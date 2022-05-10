@@ -1,11 +1,6 @@
-
-function say(name) {
-    console.log('Hola '+ name);
-}
-
 function fibonacci(n) {
     if (n == 0) {
-        return 1;
+        return 0;
     }
     else if (n == 1) {
         return 1;
@@ -13,5 +8,5 @@ function fibonacci(n) {
     return fibonacci(n-1) + fibonacci(n-2);
 }
 
-a = fibonacci(5);
+a = fibonacci(3);
 console.log(a);
