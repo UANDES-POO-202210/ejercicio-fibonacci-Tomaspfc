@@ -11,8 +11,6 @@ function fibonacci(n) {
 var fs = require('fs');
 
 fs.readFile('number.txt', 'utf8', function(err, data) {
-    console.log(data);
+    var numb = parseInt(data);
+    console.log(fibonacci(numb));
 });
-
-a = fibonacci(3);
-//console.log(a);
